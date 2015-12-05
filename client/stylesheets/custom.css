@@ -1,0 +1,20 @@
+body{
+	overflow: hidden;
+}
+.temp{
+
+	font-size: 50px;
+	font-style: bold;
+	margin-top:10%;
+}
+
+.media{
+
+	font-size: 180px;
+	font-style: bold;
+}
+.rtValue{
+
+	font-size: 180px;
+	font-style: bold;
+}

@@ -1,0 +1,21 @@
+<head>
+	<title>Biofeedback</title>
+</head>
+
+<body>
+	{{> main}}
+</body>
+
+<template name="main">
+	<div class="row">
+		<h1 class="text-center">Galvanic Skin Response (GSR)</h1>
+		<div class="col-md-6">
+			<h2 class="text-center temp">Real Time</h2>
+			{{> highchartsHelper chartId="rtValue" chartWidth="100%" charHeight="100%" chartObject=rtValue}}
+		</div>
+		<div class="col-md-6">
+			<h2 class="text-center temp">Average</h2>
+			{{> highchartsHelper chartId="media" chartWidth="100%" charHeight="100%" chartObject=avgGSR}}
+		</div>
+	</div>
+</template>
