@@ -1,15 +1,4 @@
- Meteor.startup(function() {
-     setInterval(function() {
-         Meteor.call("getAvg", function(error, result) {
-             Session.set("avgGSR", result);
-         });
-         Meteor.call("getRtValue", function(error, result) {
-             Session.set("rtValue", result);
-         });
-     }, 1000);
- });
-
- Template.main.avgGSR = function() {
+Template.main.avgGSR = function() {
      return {
          colors: ["#2b908f", "#90ee7e", "#f45b5b", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee",
              "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"

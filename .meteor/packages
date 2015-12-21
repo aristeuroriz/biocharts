@@ -22,4 +22,6 @@ juliancwirko:caprica
 reactive-var
 twbs:bootstrap
 maazalik:highcharts
-autopublish
+jss:flat-ui
+fourseven:scss
+fortawesome:fontawesome
